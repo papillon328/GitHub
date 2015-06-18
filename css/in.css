@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("home.css");
+body{ width:1920px; margin:0 auto; background:#fff;}
+/*--------------------------------body 分五个区域---------------------*/
+.header{ height:90px; background:#fff;}
+.account{ height:405px; background:#f0f0f0;}
+.tools{ height:145px; background:#e8ecef;}
+.details{ height:315px; background:#f6f7f9;}
+.foot{ height:155px; background:#525e6a;}
+
+/*----------------------------------确定中心宽度-----------------------*/
+.centre{ width:1000px; margin:0 auto; height:100%;}
+
+
+
+/*----------------------------------account 分区---------------------*/
+.picture{ width:720px; height:345px; float:left; margin-top:60px;}
+.infor{ width:280px; height:345px; float:right; margin-top:60px;}
+
+/*----------------------------account中infor分区----------------------*/
+.reg{ width:140px; height:70px; background:#0a91d3; float:left;}
+.qui{ width:140px; height:70px; background:#de4a22; float:right;}
+.message{ width:280px; height:275px; background:#fff; margin-top:70px;}
+
+/*-----------------------------details 分区--------------------------*/
+.hot{ width:325px; height:148px; background:url(../images/img-stfy.jpg); float:left; margin-top:60px;}
+.move{ width:315px; height:148px; float:left; background:url(../images/newsssbg.png); margin-top:60px; margin-left:30px;}
+.job{ width:310px; height:148px; float:right; background:url(../images/newsssbg.png); margin-top:60px;}
+
+/*------------------------------header 编辑区-------------------------*/
+.header-mg{ float:left; margin-top:15px; margin-left:5px;}
+.header-mg img{ border:none;}
+.header-text{ float:right; border-right:1px dashed #eaeaea;}
+.header-text span{ display:block; font-size:18px;}
+.header-text li{ float:left; width:120px; text-align:center; height:65px; padding-top:25px; border-left:1px dashed #eaeaea; font-size:9px;}
+.header-text li a{ color:#565656; border-bottom:3px solid transparent; display:block; height:62px;}
+.header-text li a:hover{ color:#39F; border-bottom:3px solid #39f; text-decoration:none;}
+.header-text .active{ color:#39F; border-bottom:3px solid #39f; text-decoration:none;}
+
+/*----------------------------account 编辑区----------------------*/
+.account .reg,.qui{ font-size:20px; text-align:center; line-height:70px;}
+.account .reg a,.qui a{ color:#fff; padding:24px 30px}
+.account a:hover{ color:#CCC; text-decoration:none; background:#069;}
+.account .qui a:hover{ background:#C60;}
+.account img{ height:345px;}
+.message .mtop{ background-color:#f0f0f0; color:#b4b4b4; height:45px; text-align:center; font-size:20px; line-height:45px;}
+.message .txt{ margin-top:30px; margin-left:35px; width:197px;}
+.message .uname{ width:162px; height:28px; line-height:28px; background:url(../images/user-.jpg) no-repeat; border:0; padding-left:35px;}
+.message .upass{ background:url(../images/pass-bg.jpg) no-repeat;}
+.message .auth{ line-height:27px; width:65px; height:27px; text-align:center; color:#535353; margin-right:5px; background:url(../images/vad-bg.jpg) no-repeat; border:0;}
+.message .sub{ cursor:pointer; width:197px; height:38px; background:#5a85b8; color:#FFF; border:0; font-size:16px; margin-top:20px;}
+.message .sub:hover{ color:#CCC; background:#09C;}
+.message .content{ margin-top:15px;}
+.message .content a{ display:inline-block; float:right; color:#dd573c; margin-top:7px;}
+.message .txt img{ vertical-align:middle; margin-right:5px; width:70px; height:28px;}
+.message .pas a{ float:right; color:#7a787d;}
+
+/*------------------------------tools 编辑区---------------------------*/
+
+.tools img{ margin-top:15px; margin-bottom:5px; float:left;margin-right:80px;}
+.tools .re{ margin-left:25px;}
+.tools ul li{ float:left; margin:20px 40px 35px; width:82px; text-align:center;}
+.tools li a{  color:#768089;}
+.tools ul li a i{ display:block; width:82px; height:82px; background:url(../images/tools.gif); transition:all 1s;} 
+.tools ul li a:hover i{ background-position:0 -82px;}
+.tools ul .g2 a i{ background-position:-82px 0;}
+.tools ul .g2 a:hover i{ background-position:-82px -82px;}
+.tools ul .g3 a i{ background-position:-164px -82px;}
+.tools ul .g3 a:hover i{ background-position:-164px 0;}
+.tools ul .g4 a i{ background-position:-246px 0;}
+.tools ul .g4 a:hover i{ background-position:-246px -82px;}
+.tools ul .g5 a i{ background-position:-328px 0;}
+.tools ul .g5 a:hover i{ background-position:-328px -82px;}
+.tools ul .g6 a i{ background-position:-410px 0;}
+.tools ul .g6 a:hover i{ background-position:-410px -82px;}
+
+
+
+/*--------------------------------details 编辑区------------------------*/
+.move .mcentre{ width:290px;}
+.move h3{ float:left; font-size:16px; margin-bottom:20px; color:#223b51;}
+.move th img{ float:left; margin-right:5px;}
+.move a{ display:inline-block; font-size:9px; color:#525e6c; float:right;}
+.move td a{ float:left; font-size:12px; margin-left:5px; color:#737373;}
+.move tr{ height:26px;; margin-bottom:7px;}
+.move .txt{ border-bottom:1px dashed #a5a5a7; border-top:1px dashed #a5a5a7;}
+.move .date{ float:right; color:#737373;}
+.job h3{ float:left; font-size:16px; margin-bottom:20px; color:#223b51;}
+.job th img{ float:left; margin-right:5px;}
+.job th a{ display:inline-block; font-size:9px; color:#525e6c; float:right;}
+.job .txt{ border-bottom:1px dashed #a5a5a7; border-top:1px dashed #a5a5a7;}
+.job .ui{ float:right;}
+.job .more a{ color:#25c5f9;}
+.job td a{ color:#737373;}
+.job tr{ color:#7e7e7e;}
+
+/*-------------------------------foot 编辑区----------------------*/
+.foot .fheader{ float:left; margin-top:50px;}
+.foot ul{ float:left; margin-left:50px; margin-top:45px;}
+.foot li{ color:#a4b7c8; line-height:25px;}

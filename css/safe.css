@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+/*--------------------------常规--------------------*/
+*{ margin:0; padding:0;}
+body{ font-family:"microsoft yahei"; font-size:12px; color:#777;}
+ul,ol{ list-style:none;}
+a{ text-decoration:none;}
+a:hover{ text-decoration:underline; color:#0CC;}
+.darkgray{ color:#4d4d4d;}
+
+/*------------------布局 分六个区域--------------------------*/
+.header{ height:90px; background-color:#f7f8fa;}
+.print{ height:170px; background:url(../images/banner-acc.jpg) no-repeat;}
+.up{ height:50px; margin-top:-50px;}
+.details{ height:900px; background-color:#fff;}
+.blank{ height:120px;}
+.foot{ height:155px; background-color:#525e6a;}
+
+/*-------------------确定中心宽度------------------------------*/
+.centre{ width:1000px; margin:0 auto; height:100%}
+
+
+.up .centre{ background-color:#fff;}
+
+
+/*----------------------details 分隔区域---------------------*/
+.lside{ width:249px; float:left; height:900px; border:1px solid #eaeaea; border-right:none;}
+.rside{ width:748px; float:right; height:900px; border:1px solid #eaeaea;}
+
+/*----------------------rside 分隔区域----------------------*/
+.rheader{ width:660px; margin:0 auto; height:80px; border-bottom:1px solid #eaeaea;}
+.rfoot{ width:660px; margin:0 auto;}
+
+
+/*---------------------------header 编辑区---------------*/
+.header-mg{ float:left; margin-top:15px; margin-left:5px;}
+.header-mg img{ border:none;}
+.header-text{ float:right; border-right:1px dashed #eaeaea;}
+.header-text span{ display:block; font-size:18px;}
+.header-text li{ float:left; width:120px; text-align:center; height:65px; padding-top:25px; border-left:1px dashed #eaeaea; font-size:9px;}
+.header-text li a{ color:#565656; border-bottom:3px solid transparent; display:block; height:62px;}
+.header-text li a:hover{ color:#39F; border-bottom:3px solid #39f; text-decoration:none;}
+.header-text .active a{ color:#39F; border-bottom:3px solid #39f; text-decoration:none;}
+
+/*-----------------------------print 编辑区----------------*/
+.print h3{ text-align:center; font-size:10px; padding-top:35px; font-weight:normal;}
+.print h3 span{ display:block; font-size:20px; color:#213b5e;}
+
+/*-----------------------------up 编辑区----------------*/
+.up a{ color:#777;}
+.up a:hover{ color:#39f;}
+.nav{ float:left; padding-left:30px; margin-top:15px;}
+.nav span{ margin-right:15px;}
+.vad{ float:right;}
+.vad li{ float:left; height:50px; line-height:50px; width:125px; border-left:1px solid #eaeaea; text-align:center;}
+.up .vad li a{ display:block; height:50px;}
+.up .vad li a:hover{ color:#FFF; background:#39f; text-decoration:none;}
+
+/*-----------------------------details中lside的编辑区----------------*/
+.lside ul{ margin-left:35px; margin-top:40px;}
+.lside ul li{ margin-top:15px;}
+.lside ol li{ margin-top:10px;}
+.lside ol a{ color:#777;}
+.lside h2 a{ color:#333; font-weight:normal; font-family:黑体;}
+.lside ul a:hover{ color:#39f;}
+.lside .active{ color:#39f; text-decoration:underline;}
+.lside ol{ list-style:disc; text-indent:1em;}
+
+/*--------------------------------rside的编辑区-----------------------*/
+.rside .middle{ width:665px; margin:0 auto; margin-top:50px;}
+.rside .level span{ margin-right:20px; font-size:14px; color:#262626; font-family:黑体; font-weight:normal;}
+.rside .level img{ vertical-align:middle;}
+.rside .time{ margin-left:190px; color:#999; margin-bottom:30px;}
+.rside .level .down{ color:#FFF; background:#00a6e2; width:65px; height:25px; line-height:25px; text-align:center; border:0;}
+.rside .level .down:hover{ background:#39f; cursor:pointer;}
+.section{ padding-bottom:45px; padding-top:25px; border-bottom:1px dashed #eaeaea;}
+.remail{ margin-top:85px;}
+.section .bind{ font-size:12px; color:#c2c2c2;}
+.remail .bind{ color:#79d508;}
+.section span{ margin-right:15px; font-size:16px; font-family:黑体; color:#4d4d4d;}
+.section p{ margin-top:15px;}
+.section .txt{ width:300px; float:left;}
+.remail .qq{ color:#808080; font-size:12px;}
+.section .stext{ width:450px; float:left; margin-right:130px; font-size:12px; color:#999;}
+.section .link a{ display:inline-block; float:right; color:#26c3fa; margin-right:25px; font-size:12px;}
+.section .link a:hover{ color:#06F;}
+
+/*------------------------------------foot的编辑区---------------------------*/
+.foot .fheader{ float:left; margin-top:50px;}
+.foot ul{ float:left; margin-left:50px; margin-top:45px;}
+.foot li{ color:#a4b7c8; line-height:25px;}
+

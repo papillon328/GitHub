@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+/*--------------------------常规--------------------*/
+*{ margin:0; padding:0;}
+body{ font-family:"microsoft yahei"; font-size:12px; color:#777;}
+ul,ol{ list-style:none;}
+a{ text-decoration:none;}
+a:hover{ text-decoration:underline; color:#0CC;}
+.darkgray{ color:#4d4d4d;}
+
+/*------------------布局 分六个区域--------------------------*/
+.top{ height:25px; background-color:#3d4749;}
+.header{ height:90px; background-color:#f7f8fa;}
+.print{ height:170px; background:url(../images/banner-acc.jpg) no-repeat;}
+.up{ height:50px; margin-top:-50px;}
+.details{ height:580px; background-color:#fff;}
+.blank{ height:120px;}
+.foot{ height:155px; background-color:#525e6a;}
+
+/*-------------------确定中心宽度------------------------------*/
+.centre{ width:1000px; margin:0 auto; height:100%}
+
+
+.up .centre{ background-color:#fff;}
+
+
+/*----------------------details 分隔区域---------------------*/
+.lside{ width:249px; float:left; height:578px; border:1px solid #eaeaea; border-right:none;}
+.rside{ width:748px; float:right; height:578px; border:1px solid #eaeaea;}
+
+/*----------------------rside 分隔区域----------------------*/
+.rside-top{ height:180px;}
+.rside .rside-middle{ height:140px; border-top:1px solid #eaeaea; border-bottom:1px solid #eaeaea;}
+.rside .rside-foot{ height:260px;}
+/*-----------------------rside-middle 分隔区域----------------------------*/
+.section{ width:32%; float:left; height:100%;}
+
+
+/*---------------------------top 编辑区-----------------*/
+.top-text{ float:right;}
+.top-text li{ float:left; height:25px; line-height:25px; color:#FFF;}
+.top-text a{ display:inline-block; margin-right:15px; margin-left:15px; color:#FFF;}
+.top-text a:hover{ color:#39C;}
+
+/*---------------------------header 编辑区---------------*/
+.header-mg{ float:left; margin-top:15px; margin-left:5px;}
+.header-mg img{ border:none;}
+.header-text{ float:right; border-right:1px dashed #eaeaea;}
+.header-text span{ display:block; font-size:18px;}
+.header-text li{ float:left; width:120px; text-align:center; height:65px; padding-top:25px; border-left:1px dashed #eaeaea; font-size:9px;}
+.header-text li a{ color:#565656; border-bottom:3px solid transparent; display:block; height:62px;}
+.header-text li a:hover{ color:#39F; border-bottom:3px solid #39f; text-decoration:none;}
+.header-text .active a{ color:#39F; border-bottom:3px solid #39f; text-decoration:none;}
+
+/*-----------------------------print 编辑区----------------*/
+.print h3{ text-align:center; font-size:10px; padding-top:35px; font-weight:normal;}
+.print h3 span{ display:block; font-size:20px; color:#213b5e;}
+
+/*-----------------------------up 编辑区----------------*/
+.up a{ color:#777;}
+.up a:hover{ color:#39f;}
+.nav{ float:left; padding-left:30px; margin-top:15px;}
+.nav span{ margin-right:15px;}
+.vad{ float:right;}
+.vad li{ float:left; height:50px; line-height:50px; width:125px; border-left:1px solid #eaeaea; text-align:center;}
+.up .vad li a{ display:block; height:50px;}
+.up .vad li a:hover{ color:#FFF; background:#39f; text-decoration:none;}
+
+/*-----------------------------details中lside的编辑区----------------*/
+.lside ul{ margin-left:35px; margin-top:40px;}
+.lside ul li{ margin-top:15px;}
+.lside ol li{ margin-top:10px;}
+.lside ol a{ color:#777;}
+.lside h2 a{ color:#333; font-weight:normal; font-family:黑体;}
+.lside ul a:hover{ color:#39f;}
+.lside .active{ color:#39f; text-decoration:underline;}
+.lside ol{ list-style:disc; text-indent:1em;}
+
+/*--------------------------------rside中rside-top的编辑区-----------------------*/
+.rside-top .person{ float:left; margin-top:55px; margin-left:35px;}
+.rside-top .state{ float:left; margin-top:45px; margin-left:30px;}
+.rside-top p{ margin-bottom:15px;}
+.rside-top p span{ padding-right:10px;}
+.rside-top p a{ float:right; margin-left:20px; color:#24c3fa;}
+.rside-top p a:hover{ color:#39f;}
+.rside-top .yel{ color:#eec200;}
+
+/*----------------------------------rside中rside-middle的编辑区-----------------------*/
+.semail{ border-left:1px solid #eaeaea; border-right:1px solid #eaeaea;}
+.section h4{ caption-side:#6e6e6e; margin-bottom:10px;}
+.smobile .mobile,.semail .email,.sorder .order{ float:left; margin-top:40px; margin-left:50px;}
+.section .text{ margin-top:40px; float:left; margin-left:25px;}
+.section .des{ padding-top:20px; text-align:center; clear:both; color:#b2b2b2;}
+.section span{ padding-left:5px; padding-right:5px;}
+.section a{ color:#24c3fa; font-size:10px;}
+.section a:hover{ color:#39f;}
+.section .s_mg{ vertical-align:top;}
+
+/*-----------------------------------rside中rside-foot的编辑区-----------------------------*/
+.rside-foot table{ margin-top:30px; margin-left:30px; width:700px; margin-left:auto; margin-right:auto;}
+.rside-foot th{ padding-bottom:10px; padding-top:10px; font-size:14px; color:#4d4d4d;}
+.rside-foot .content{ color:#b3b3b3; padding-left:45px;}
+.tail a{ display:inline-block; font-size:12px; color:#24c3fa;}
+.content a{ display:inline-block; font-size:10px; color:#24c3fa;}
+
+/*------------------------------------foot的编辑区---------------------------*/
+.foot .fheader{ float:left; margin-top:50px;}
+.foot ul{ float:left; margin-left:50px; margin-top:45px;}
+.foot li{ color:#a4b7c8; line-height:25px;}
+

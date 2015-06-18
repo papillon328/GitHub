@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("../../home.css");
+body{ width:1920px; margin:0 auto; background:#fff;}
+/*--------------------------------body 分五个区域---------------------*/
+.header{ height:90px; background:#fff;}
+.account{ height:405px; background:#f0f0f0;}
+.tools{ height:145px; background:#e8ecef;}
+.details{ height:315px; background:#f6f7f9;}
+.foot{ height:155px; background:#525e6a;}
+
+/*----------------------------------确定中心宽度-----------------------*/
+.centre{ width:1000px; margin:0 auto; height:100%;}
+
+.header .centre{ background:#f7f8fa;}
+.account .centre{ background:#9c6;}
+.tools .centre{ background:#99c;}
+.details .centre{ background:#fcc;}
+.foot .centre{ background:#699;}
+
+/*----------------------------------account 分区---------------------*/
+.picture{ width:720px; height:345px; background:#06C; float:left; margin-top:60px;}
+.infor{ width:280px; height:345px; background:#F66; float:right; margin-top:60px;}
+
+/*----------------------------account中infor分区----------------------*/
+.reg{ width:140px; height:70px; background:#0a91d3; float:left;}
+.qui{ width:140px; height:70px; background:#de4a22; float:right;}
+.message{ width:280px; height:275px; background:#fff; margin-top:70px;}
+
+/*-----------------------------details 分区--------------------------*/
+.hot{ width:345px; height:148px; background:#F00; float:left; margin-top:60px;}
+.move{ width:315px; height:148px; background:#0C6; float:left; margin-top:60px; margin-left:15px;}
+.job{ width:310px; height:148px; background:#06F; float:right; margin-top:60px;}
+
+/*----------------------------------------------------*/
